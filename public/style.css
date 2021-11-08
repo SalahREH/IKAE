@@ -1,0 +1,310 @@
+body{
+    background-color: #F3F3F3;
+    margin: 0;
+}
+
+p{
+    margin: 7px 0;
+}
+
+h1{
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+}
+
+header{
+    background-image: url("img/header.jpg");
+    background-position-y: 100%;
+    background-position-x: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: none;
+}
+
+nav{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    
+    /* TEXT */
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1%;
+    position: relative;
+    top: 5%;
+}
+
+.header-logo{
+    width: 30%;
+}
+.nav-anchor1{
+    text-decoration: none;
+    color: black;
+}
+.nav-anchor2{
+    text-decoration: none;
+    color: #B2B2B2;
+    transition: 0.7ms;
+}
+
+.nav-anchor2:hover{
+    color: black;
+}
+
+.nav-anchor1:hover{
+    color: #CB3737;
+}
+
+.logo-ikae{
+    width: 100px;
+}
+
+.search-icon{
+    width: 20px;
+    height: 20px;
+
+}
+
+.header-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    color: #4A4A4A;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    background-color: #E5E5E5;
+    height: 40vh;
+}
+
+.spec-icon{
+    width: 3vw;
+}
+
+
+.img-aboutus{
+    width: 80%;
+    
+}
+
+.spec-img{
+    display: flex;
+    width: 33%;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.section-separator1{
+    display: flex;
+    background-color: #E5E5E5;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.section-separator2{
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.h1-ss{
+    display: flex;
+    
+    width: 96.5%;
+    position: relative;
+    top: 2%;
+}
+
+.main-text{
+    width: 66%;
+    position: relative;
+    top: 5%;
+}
+
+.text-top{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.text-bottom{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.text-right{
+    width: 30%;
+}
+
+.text-left{
+    width: 50%;
+}
+
+
+.rooms{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.room1{
+    background-image: url("./img/bathroom.jpg");
+    background-size: 175%;
+    background-position: center;
+    width: 25%;
+    height: 60vh;
+    transition: all 1s;
+
+}
+
+.room2{
+    background-image: url("./img/kitchen.jpg");
+    background-size: 175%;
+    background-position: center;
+    width: 25%;
+    transition: all 1s;
+
+}
+
+.room3{
+    background-image: url("./img/bedroom.jpg");
+    background-size: 175%;
+    background-position: center;
+    width: 25%;
+    transition: all 1s;
+
+}
+
+.room4{
+    background-image: url("./img/livingroom.jpg");
+    background-size: 175%;
+    background-position: center;
+    width: 25%;
+    transition: all 1s;
+
+}
+.bathr-text{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    backdrop-filter: brightness(50%);
+    margin: 0%;
+    justify-content: center;
+    color: white;
+    transition: all 1s;
+}
+.k-text{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    backdrop-filter: brightness(50%);
+    margin: 0%;
+    justify-content: center;
+    color: white;
+    transition: all 1s;
+}
+.bedr-text{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    backdrop-filter: brightness(50%);
+    margin: 0%;
+    justify-content: center;
+    color: white;
+    transition: all 1s;
+}
+.lr-text{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    backdrop-filter: brightness(50%);
+    margin: 0%;
+    justify-content: center;
+    color: white;
+    transition: all 1s;
+}
+
+.room1:hover{
+    background-size: 210%;
+}
+.room2:hover{
+    background-size: 210%;
+}
+.room3:hover{
+    background-size: 210%;
+}
+.room4:hover{
+    background-size: 210%;
+}
+
+
+
+.room1:hover .bathr-text{
+    backdrop-filter: brightness(100%);
+    opacity: 0;
+}
+
+.room2:hover .k-text{
+    backdrop-filter: brightness(100%);
+    opacity: 0;
+}
+
+.room3:hover .bedr-text{
+    backdrop-filter: brightness(100%);
+    opacity: 0;
+}
+
+.room4:hover .lr-text{
+    backdrop-filter: brightness(100%);
+    opacity: 0;
+}
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #A3A3A3;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    nav{
+        display: none;
+    }
+    
+}
